@@ -1,0 +1,19 @@
+.pagelogo{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20%;
+  transition:.25s;
+  animation:rlogoanim 2s; 
+}
+
+.pagelogo:hover{
+  transform:scale(1.20);
+  transition:.25s;
+}
+
+@keyframes rlogoanim{
+  from{bottom:40vh;opacity:1}
+  to{bottom:0;opacity:1}}
+
+  

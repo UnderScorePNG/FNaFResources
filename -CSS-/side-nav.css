@@ -1,0 +1,143 @@
+/*------------------------------------------------*/
+/*Content Container Navigation Styling*/
+
+.navigation {
+  overflow: hidden;
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: magenta;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: yellow;
+}
+
+/*------------------------------------------------*/
+/*Left Navigation Column Configuration*/
+
+.leftnav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+
+.leftnav .navtitle{
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.leftnav .navlink{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+/*------------------------------------------------*/
+/*Right Navigation Column Configuration*/
+
+.rightnav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+/*SOCIAL MEDIA BAR*/
+
+.media{
+  text-align:center;
+  font-size:30px;
+}
+
+.medialink{
+  color:lightgray;
+  transition: color 0.03s;
+}
+
+.medialink:hover{
+  color:white;
+}
+
+.medialink>i{
+  transition:.25s;
+}
+
+.medialink>i:hover{
+  transform:scale(1.25);
+}
+
+.rightnav .navtitle{
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.rightnav .navlink{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+/*------------------------------------------------*/
+/*Side Navigation Columns Link Styling*/
+
+.navtitle{
+  text-align:center;
+  color:white;
+  white-space: nowrap;
+}
+.navtitle:hover{
+  color:#494949;
+}
+.navlink{
+  color:magenta;
+  white-space: nowrap;
+}
+.navlink:hover{
+color:yellow;
+}
+
+@media screen and (max-height: 450px){
+  .rightnav {padding-top: 15px;}
+  .rightnav a {font-size: 18px;}
+  .leftnav {padding-top: 15px;}
+  .leftnav a {font-size: 18px;}
+}
+
+.sidenavhr{
+  width:250px;
+  margin-left:30px;
+}

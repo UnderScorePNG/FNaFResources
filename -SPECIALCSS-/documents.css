@@ -1,0 +1,53 @@
+.emailparagraph{
+  font-size:13px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.emailhr{
+  width:1110px;
+}
+/*--------------------------------*/
+.leftnav .navlinkemail{
+  padding: 4px 8px 4px 32px;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  transition: 0.3s;
+}
+
+.navlinkemail{
+  color:magenta;
+  white-space: nowrap;
+}
+.navlinkemail:hover{
+  color:yellow;
+}
+
+/*--------------------------------*/
+
+.lbar{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align:center;
+  font-size:40px;
+}
+
+.lbarbutton{
+  color:whitesmoke;
+  transition: color 0.03s;
+}
+
+.lbarbutton:hover{
+  color:white;
+}
+
+.lbarbutton>i{
+  transition:.25s;
+}
+
+.lbarbutton>i:hover{
+  transform:scale(1.25);
+}
+

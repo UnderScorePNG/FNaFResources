@@ -120,7 +120,7 @@
   white-space: nowrap;
 }
 .navtitle:hover{
-  color:#494949;
+  color:lightgrey;
 }
 .navlink{
   color:magenta;

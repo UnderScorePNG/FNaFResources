@@ -1,11 +1,11 @@
-.emailparagraph{
+.documentparagraph{
   font-size:13px;
   padding-left:20px;
   padding-right:20px;
 }
 
-.emailhr{
-  width:1110px;
+.documenthr{
+  width:98%;
 }
 /*--------------------------------*/
 .leftnav .navlinkemail{

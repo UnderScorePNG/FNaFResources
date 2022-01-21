@@ -24,30 +24,3 @@
   color:yellow;
 }
 
-/*--------------------------------*/
-
-.lbar{
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  text-align:center;
-  font-size:40px;
-}
-
-.lbarbutton{
-  color:whitesmoke;
-  transition: color 0.03s;
-}
-
-.lbarbutton:hover{
-  color:white;
-}
-
-.lbarbutton>i{
-  transition:.25s;
-}
-
-.lbarbutton>i:hover{
-  transform:scale(1.25);
-}
-

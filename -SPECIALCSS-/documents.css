@@ -8,19 +8,38 @@
   width:98%;
 }
 /*--------------------------------*/
-.leftnav .navlinkemail{
+.leftnav .navlinkdocument{
   padding: 4px 8px 4px 32px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 62%;
   display: block;
   transition: 0.3s;
 }
 
-.navlinkemail{
+.navlinkdocument{
   color:magenta;
   white-space: nowrap;
 }
-.navlinkemail:hover{
+.navlinkdocument:hover{
   color:yellow;
 }
 
+/*-----------------------------*/
+table{
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding:5px;
+}
+
+.nobreak{
+  word-break: keep-all;
+}

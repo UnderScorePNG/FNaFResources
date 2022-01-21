@@ -17,6 +17,12 @@ body{
   background-color:black;
   font-family: 'Roboto Mono', monospace;
   color:whitesmoke;
+  -ms-overflow-style: none;  /* Scrollbar Hidden On IE & Edge */
+  scrollbar-width: none;  /* Scrollbar Hidden on Firefox*/
+}
+
+body::-webkit-scrollbar{
+  display:none; /* Scrollbar Hidden On Chrome & Safari & Opera */
 }
 
 /*----------------------------------------------*/
@@ -24,7 +30,7 @@ body{
 .lbarmiddle{
   width: 100%;
   text-align:center;
-  font-size:30px;
+  font-size:25px;
 }
 
 .lbarbottom{
@@ -33,7 +39,7 @@ body{
   bottom: 0px;
   width: 100%;
   text-align:center;
-  font-size:30px;
+  font-size:25px;
 }
 
 .lbarbutton{

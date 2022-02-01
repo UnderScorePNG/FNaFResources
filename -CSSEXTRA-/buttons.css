@@ -1,0 +1,104 @@
+.extrabutton{
+  background-color: #262626; /* Green */
+  border: 2px white;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius:6px;
+  font-family: Cookie;
+  transition:.25s;
+}
+
+.extrabutton:hover{
+  transform:scale(1.10);
+}
+
+.coffeeicon{
+  height: 12px;
+  margin-right:4px;
+}
+
+.supporticon{
+  font-size:10px;
+}
+
+.coffeelink{
+  text-decoration:none;
+  color:white;
+}
+
+/*----------------------------------------------------------*/
+
+.supporter{
+  background-color: #262626; /* Green */
+  border:solid 2px white;
+  color: white;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Cookie;
+  transition:.25s;
+  margin-bottom:5px;
+  margin-top:5px;
+  padding:5px 20px 5px;
+  border-radius:12px;
+  cursor: pointer;
+}
+
+.supporter:hover{
+  transform:scale(1.15);
+}
+
+.supporterlink{
+  text-decoration:none;
+  font-size:20px;
+  color:white;
+}
+
+/*--------------------------------------------*/
+
+.lbarmiddle{
+  width: 100%;
+  text-align:center;
+  font-size:25px;
+}
+
+.lbarbottom{
+  margin-left:-7px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align:center;
+  font-size:25px;
+}
+
+.lbarbutton{
+  color:whitesmoke;
+  transition: color 0.03s;
+}
+
+.lbarbutton:hover{
+  color:white;
+}
+
+.lbarbutton>i{
+  transition:.25s;
+}
+
+.lbarbutton>i:hover{
+  transform:scale(1.25);
+}
+
+/*--------------------------------------------*/
+
+.bmcredirect{
+  height:50px;
+  transition:.25s;
+}
+
+.bmcredirect:hover{
+  transform:scale(1.25);
+}

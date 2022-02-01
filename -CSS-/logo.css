@@ -1,10 +1,10 @@
 .pagelogo{
-  display: block;
+  display:block;
   margin-left:auto;
   margin-right:auto;
-  width:100px;
   transition:.25s;
   animation:rlogoanim 2s; 
+  width:18%;
 }
 
 .pagelogo:hover{
@@ -16,4 +16,9 @@
   from{bottom:40vh;opacity:1}
   to{bottom:0;opacity:1}}
 
-  
+.LogoLink{
+  display:inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

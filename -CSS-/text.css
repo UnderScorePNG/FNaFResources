@@ -2,17 +2,19 @@
   font-family: Josefine;
   src: url(../-FONTS-/josefine.ttf);
 }
-
 @font-face {
   font-family: F25;
   src: url(../-FONTS-/F25.ttf);
+}
+@font-face {
+  font-family: Cookie;
+  src: url(../-FONTS-/cookie.ttf);
 }
 
 .contentboxmain{
   border:3px whitesmoke solid;
   padding:0px;
 }
-
 .contentboxlinks{
   border:3px whitesmoke solid;
   padding:14px;
@@ -28,17 +30,18 @@
   float:center;
   text-decoration:none;
 }
+a.titlelink:hover{
+  text-decoration:underline;
+}
 
 .resourcelink{
   margin-left:5px;
   font-size:11px;
 }
-
 .resourcelink a{
   color:whitesmoke;
   text-decoration:none;
 }
-
 .resourcelink a:hover{
   color:whitesmoke;
   text-decoration:underline lightgray;
@@ -46,5 +49,5 @@
 
 .linkiconleft{
   margin-right:5px;
-
 }
+

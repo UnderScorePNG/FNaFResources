@@ -1,7 +1,7 @@
 .extrabutton{
-  background-color: #262626; /* Green */
-  border: 2px white;
-  color: white;
+  background-color: white; /* Green */
+  border: 2px;
+  color: black;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -28,7 +28,7 @@
 
 .coffeelink{
   text-decoration:none;
-  color:white;
+  color:black;
 }
 
 /*----------------------------------------------------------*/
@@ -72,7 +72,7 @@
   bottom: 0px;
   width: 100%;
   text-align:center;
-  font-size:25px;
+  font-size:35px;
 }
 
 .lbarbutton{
@@ -100,5 +100,14 @@
 }
 
 .bmcredirect:hover{
+  transform:scale(1.25);
+}
+
+.basicredirect{
+  font-size:50px;
+  transition:.25s;
+}
+
+.basicredirect:hover{
   transform:scale(1.25);
 }

@@ -1,10 +1,10 @@
 
 /*Left Navigation Column Configuration*/
-.leftnav::-webkit-scrollbar{
+.sidenav::-webkit-scrollbar{
   display:none; /* Scrollbar Hidden On Chrome/ & Safari & Opera */
 }
 
-.leftnav {
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -19,129 +19,78 @@
   scrollbar-width: none;  /* Scrollbar Hidden on Firefox*/
 }
 
-/*-----------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
 
-.navtitle{
-  padding: 0px 0px 0px 50px;
-  color:white;
-  white-space: nowrap;
-  padding-right:10px;
-}
-.navtitle:hover{
-  color:lightgrey;
-}
 .navlink{
+  padding: 0px 8px 8px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size:18px;
   color:magenta;
+  display:block;
   white-space: nowrap;
 }
+
 .navlink:hover{
 color:yellow;
 }
 
-.leftnav .navtitle{
-  text-decoration: none;
-  display: block;
-  transition: 0.3s;
-  margin-top:20px;
-  margin-bottom:20px;
+/*------------------------------------------------------------------------------------------------*/
+
+.navtitle{
+  color:whitesmoke;
+  font-family:F25;
   font-size:18px;
+  text-align:center;
+  float:center;
+  text-decoration:none;
 }
 
-.leftnav .navlink{
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  display: block;
-  transition: 0.3s;
-  font-size:18px;
+a.navtitle:hover{
+  text-decoration:underline;
 }
 
-/*-----------------------------------------------------------------------------*/
-
-.leftnav .navlinkdocument{
-  padding: 4px 8px 4px 32px;
-  text-decoration: none;
-  font-size: 62%;
-  display: block;
-  transition: 0.3s;
-}
+/*------------------------------------------------------------------------------------------------*/
 
 .navlinkdocument{
+  padding: 0px 8px 8px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size:62%;
   color:magenta;
+  display:block;
   white-space: nowrap;
 }
+
 .navlinkdocument:hover{
   color:yellow;
 }
 
-@media screen and (min-width: 640px) {
-  .leftnav .navlinkdocument{
-    font-size:50%;
-  }
-}
-
 @media screen and (min-width: 960px) {
-  .leftnav .navlinkdocument{
+  .sidenav .navlinkdocument{
     font-size:64%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .leftnav .navlinkdocument{
-    font-size:70%;
+  .sidenav .navlinkdocument{
+    font-size:12px;
   }
 }
 
 /*-----------------------------------------------------------------------------*/
 
 @media screen and (max-height: 450px){
-  .rightnav {padding-top: 15px;}
-  .rightnav a {font-size: 18px;}
   .leftnav {padding-top: 15px;}
   .leftnav a {font-size: 18px;}
 }
 
-.sidenavhr{
-  width:250px;
-  margin-left:30px;
+.navfieldset{
+  width:300px;
+  margin-top:15px;
+  border:3px whitesmoke solid;
 }
 
-.NavClose{
-  padding-right:5px;
+*:target {
+  color: #ffff00;
 }
-
-/*--------------------------------------------------------------------------------------------------*/
-/*Right Navigation Column Configuration*/
-
-.rightnav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 0px;
-}
-/*SOCIAL MEDIA BAR*/
-
-.rightnav .navtitle{
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-  margin-top:20px;
-  margin-bottom:20px;
-}
-
-.rightnav .navlink{
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-}
-
-/*------------------------------------------------*/
-/*Side Navigation Columns Link Styling*/

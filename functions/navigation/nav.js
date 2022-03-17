@@ -1,4 +1,4 @@
-function closeLeftNav() {
+function closeNav() {
   document.getElementById("sideNav1").style.width = "0px";
   document.getElementById("sideNav2").style.width = "0px";
   document.getElementById("sideNav3").style.width = "0px";

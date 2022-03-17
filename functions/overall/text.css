@@ -1,14 +1,16 @@
 @font-face {
   font-family: Josefine;
-  src: url(.../files/fonts/josefine.ttf);
+  src: url(...../files/fonts/josefine.ttf);
 }
+
 @font-face {
   font-family: F25;
-  src: url(.../files/fonts/F25.ttf);
+  src: url(/fonts/F25.ttf);
 }
+
 @font-face {
   font-family: Cookie;
-  src: url(.../files/fonts/cookie.ttf);
+  src: url(...../files/fonts/cookie.ttf);
 }
 
 /*-------------------------------------------------------------------------------------*/

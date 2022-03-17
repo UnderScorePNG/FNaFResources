@@ -1,7 +1,10 @@
 .contentboxlinks{
   border:3px whitesmoke solid;
   padding:14px;
+  border-radius:1px;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
 
 .titlelink{
   color:whitesmoke;
@@ -11,9 +14,25 @@
   float:center;
   text-decoration:none;
 }
+
 a.titlelink:hover{
   text-decoration:underline;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.linkicon{
+  margin-right:5px;
+  font-size:11px;
+}
+
+@media screen and (min-width: 640px) {
+  .linkicon{
+    font-size:16px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
 
 .resourcelink{
   margin-left:5px;
@@ -28,15 +47,13 @@ a.titlelink:hover{
   text-decoration:underline lightgray;
 }
 
-.linkiconleft{
-  margin-right:5px;
-}
-
 @media screen and (min-width: 640px) {
   .titlelink, .resourcelink{
     font-size:18px;
   }
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
 
 .paragraphlink{
 color:white;
